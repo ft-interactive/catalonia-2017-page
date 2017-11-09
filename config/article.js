@@ -1,24 +1,24 @@
 export default () => ({ // eslint-disable-line
 
   // link file UUID
-  id: '10d73870-6cb0-11e7-bfeb-33fe0c5b7eaa',
+  id: 'b22bdb36-c561-11e7-a1d2-6786f39ef675',
 
   // canonical URL of the published page
   // "$url" get filled in by the ./configure script
-  url: 'https://ig.ft.com/germany-poll-tracker',
+  url: 'https://ig.ft.com/catalonia-poll-tracker/',
 
   // To set an exact publish date do this:
   //       new Date('2016-05-17T17:11:22Z')
   publishedDate: new Date(),
 
-  headline: 'German election polls 2017',
+  headline: 'Catalan election polls 2017',
 
   // summary === standfirst (Summary is what the content API calls it)
   summary: 'Will Angela Merkel win a fourth term as chancellor when Germany elects a new Bundestag on September 24?',
 
   topic: {
-    name: 'German election',
-    url: 'https://www.ft.com/stream/1b3d0776-b477-3590-a6ba-4d4a6d2244c3',
+    name: 'Catalonia',
+    url: 'https://www.ft.com/topics/places/Catalonia',
   },
 
   relatedArticle: {
@@ -43,13 +43,14 @@ export default () => ({ // eslint-disable-line
   byline: [
     { name: 'Anna Leach', url: 'https://www.ft.com/anna-leach' },
     { name: 'Martin Stabe', url: 'https://www.ft.com/martin-stabe' },
+    { name: 'Aleksandra Wisniewska', url: 'https://www.ft.com/aleks' },
   ],
 
   // Appears in the HTML <title>
-  title: 'German election polls 2017',
+  title: 'Catalan election polls 2017',
 
   // meta data
-  description: 'Tracking voting intention polls ahead of the German federal election on Septmber 24.',
+  description: 'Tracking voting intention polls ahead of the Catalan regional election on December 21.',
 
   /*
   TODO: Select Twitter card type -
@@ -65,9 +66,9 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: 'http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
-  socialHeadline: "German election polls #btw17",
-  socialDescription: 'How will Germans vote in 2017?',
+  socialImage: 'CHANGE_http://ft-ig-content-prod.s3-website-eu-west-1.amazonaws.com/v2/ft-interactive/germany-2017-polltracker/master/germany-2017-latest-medium.svg',
+  socialHeadline: "Catalan election polls",
+  socialDescription: 'How will Catalans vote in 2017?',
   //twitterCreator: '@author's_account', // shows up in summary_large_image cards
 
   // TWEET BUTTON CUSTOM TEXT
