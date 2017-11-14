@@ -32,10 +32,10 @@ export default () => ({ // eslint-disable-line
     credit: '',
 
     // You can provide a UUID to an image and it was populate everything else
-    uuid: 'c0319764-c612-11e7-a1d2-6786f39ef675',
+    //uuid: 'c0319764-c612-11e7-a1d2-6786f39ef675',
 
     // You can also provide a URL
-    // url: 'https://image.webservices.ft.com/v1/images/raw/http%3A%2F%2Fcom.ft.imagepublish.prod.s3.amazonaws.com%2Fc4bf0be4-7c15-11e4-a7b8-00144feabdc0?source=ig&fit=scale-down&width=700',
+    url: 'https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fim.ft-static.com%2Fcontent%2Fimages%2Fc0319764-c612-11e7-a1d2-6786f39ef675.img?source=c0319764-c612-11e7-a1d2-6786f39ef675&width=700',
   },
 
   // Byline can by a plain string, markdown, or array of authors
