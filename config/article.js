@@ -14,7 +14,7 @@ export default () => ({ // eslint-disable-line
   headline: 'Catalan election polls 2017',
 
   // summary === standfirst (Summary is what the content API calls it)
-  summary: 'Will Angela Merkel win a fourth term as chancellor when Germany elects a new Bundestag on September 24?',
+  summary: 'Will Catalans return a pro-independent parliament on December 21?',
 
   topic: {
     name: 'Catalonia',
